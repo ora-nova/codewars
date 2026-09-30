@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="myButton">Click me! Count: 0</button>
+</body>
+<script>
+function button(){
+    let count=0;
+    let butt=document.getElementById('myButton');
+    butt.disabled=false;
+    butt.addEventListener('click',function(){
+     butt.textContent='processing...'
+      butt.disabled=true;
+      setTimeout(()=>{
+        butt.disabled=false;
+        count++;
+        butt.textContent='Click me! Count:'+ count;
+      },2000);
+    })
+  }
+  button();
+  </script>
+</html>
