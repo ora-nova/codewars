@@ -40,3 +40,4 @@ for(let j=0;j<arr.length;j++){
 return string1;
 }
 console.log(longestConsec(["ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh"], 1))
+
