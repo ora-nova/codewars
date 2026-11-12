@@ -13,6 +13,6 @@ function scramble(str1, str2) {
     }
 return true;
   }
-console.log(scramble('rkqodlw', 'world'));
+console.log(scramble('rkqodlwn', 'worldn'));
   
   
